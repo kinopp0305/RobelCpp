@@ -9,14 +9,12 @@
 #include <iostream>
 using namespace std;
 
-void f(int x, int y)
-{
-    cout << "f(" << x << ", " << y
-    << ") = " << 2 * x + y << endl;
+void f(int x, int y) {
+    int z = 2 * x + y;
+    cout << "f(" << x << ", " << y << ") = " << z << endl;
 }
 
-int main()
-{
+int main(int argc, const char * argv[]) {
     f(1, 2);
     f(182, 144);
     return 0;
