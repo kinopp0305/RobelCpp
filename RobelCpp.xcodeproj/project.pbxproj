@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D65C64D11BB6D5FD005A0D4E /* Variable1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D65C64D01BB6D5FD005A0D4E /* Variable1.cpp */; settings = {ASSET_TAGS = (); }; };
+		D65C66431BB76FEB005A0D4E /* Func1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D65C66421BB76FEB005A0D4E /* Func1.cpp */; settings = {ASSET_TAGS = (); }; };
+		D65C66461BB770F3005A0D4E /* Input1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D65C66451BB770F3005A0D4E /* Input1.cpp */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,21 @@
 
 /* Begin PBXFileReference section */
 		D65C64BB1BB6CF5C005A0D4E /* RobelCpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RobelCpp; sourceTree = BUILT_PRODUCTS_DIR; };
-		D65C64D01BB6D5FD005A0D4E /* Variable1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Variable1.cpp; path = "02-01_Variable1/Variable1.cpp"; sourceTree = "<group>"; };
+		D65C66251BB6E379005A0D4E /* history.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = history.html; path = "99-99_Docments/history.html"; sourceTree = "<group>"; };
+		D65C66261BB6E379005A0D4E /* html01 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = html01; path = "99-99_Docments/html01"; sourceTree = "<group>"; };
+		D65C66271BB6E379005A0D4E /* html02 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = html02; path = "99-99_Docments/html02"; sourceTree = "<group>"; };
+		D65C66281BB6E379005A0D4E /* html03 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = html03; path = "99-99_Docments/html03"; sourceTree = "<group>"; };
+		D65C66291BB6E379005A0D4E /* html04 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = html04; path = "99-99_Docments/html04"; sourceTree = "<group>"; };
+		D65C662A1BB6E379005A0D4E /* htmlword */ = {isa = PBXFileReference; lastKnownFileType = folder; name = htmlword; path = "99-99_Docments/htmlword"; sourceTree = "<group>"; };
+		D65C662B1BB6E379005A0D4E /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = "99-99_Docments/index.html"; sourceTree = "<group>"; };
+		D65C662C1BB6E379005A0D4E /* mainmenu.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = mainmenu.html; path = "99-99_Docments/mainmenu.html"; sourceTree = "<group>"; };
+		D65C662D1BB6E379005A0D4E /* menu00.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = menu00.html; path = "99-99_Docments/menu00.html"; sourceTree = "<group>"; };
+		D65C662E1BB6E379005A0D4E /* new.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = new.gif; path = "99-99_Docments/new.gif"; sourceTree = "<group>"; };
+		D65C662F1BB6E379005A0D4E /* ref.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = ref.html; path = "99-99_Docments/ref.html"; sourceTree = "<group>"; };
+		D65C66301BB6E379005A0D4E /* submenu.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = submenu.html; path = "99-99_Docments/submenu.html"; sourceTree = "<group>"; };
+		D65C66311BB6E379005A0D4E /* wordsdef.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = wordsdef.html; path = "99-99_Docments/wordsdef.html"; sourceTree = "<group>"; };
+		D65C66421BB76FEB005A0D4E /* Func1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Func1.cpp; path = "02-03_Func1/Func1.cpp"; sourceTree = "<group>"; };
+		D65C66451BB770F3005A0D4E /* Input1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Input1.cpp; path = "02-06_Input1/Input1.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,9 +56,17 @@
 		D65C64B21BB6CF5C005A0D4E = {
 			isa = PBXGroup;
 			children = (
+				D65C66441BB770AD005A0D4E /* 02-06_Input1 */,
 				D65C64CD1BB6D533005A0D4E /* 02-01_Variable1 */,
-				D65C64BD1BB6CF5C005A0D4E /* RobelCpp */,
+				D65C64D21BB6D6AA005A0D4E /* 02-02_Variable2 */,
+				D65C64D71BB6DB26005A0D4E /* 02-03_Func1 */,
+				D65C64DA1BB6DCB4005A0D4E /* 02-04_Func1b */,
+				D65C663A1BB75E9E005A0D4E /* 02-04_Func2 */,
+				D65C663D1BB76E28005A0D4E /* 02-05_Variable4 */,
+				D65C66361BB75A45005A0D4E /* 06-01_Class1b */,
+				D65C64E41BB6E1B1005A0D4E /* 99-99_Docments */,
 				D65C64BC1BB6CF5C005A0D4E /* Products */,
+				D65C64BD1BB6CF5C005A0D4E /* RobelCpp */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,9 +88,79 @@
 		D65C64CD1BB6D533005A0D4E /* 02-01_Variable1 */ = {
 			isa = PBXGroup;
 			children = (
-				D65C64D01BB6D5FD005A0D4E /* Variable1.cpp */,
 			);
 			name = "02-01_Variable1";
+			sourceTree = "<group>";
+		};
+		D65C64D21BB6D6AA005A0D4E /* 02-02_Variable2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "02-02_Variable2";
+			sourceTree = "<group>";
+		};
+		D65C64D71BB6DB26005A0D4E /* 02-03_Func1 */ = {
+			isa = PBXGroup;
+			children = (
+				D65C66421BB76FEB005A0D4E /* Func1.cpp */,
+			);
+			name = "02-03_Func1";
+			sourceTree = "<group>";
+		};
+		D65C64DA1BB6DCB4005A0D4E /* 02-04_Func1b */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "02-04_Func1b";
+			sourceTree = "<group>";
+		};
+		D65C64E41BB6E1B1005A0D4E /* 99-99_Docments */ = {
+			isa = PBXGroup;
+			children = (
+				D65C66251BB6E379005A0D4E /* history.html */,
+				D65C66261BB6E379005A0D4E /* html01 */,
+				D65C66271BB6E379005A0D4E /* html02 */,
+				D65C66281BB6E379005A0D4E /* html03 */,
+				D65C66291BB6E379005A0D4E /* html04 */,
+				D65C662A1BB6E379005A0D4E /* htmlword */,
+				D65C662B1BB6E379005A0D4E /* index.html */,
+				D65C662C1BB6E379005A0D4E /* mainmenu.html */,
+				D65C662D1BB6E379005A0D4E /* menu00.html */,
+				D65C662E1BB6E379005A0D4E /* new.gif */,
+				D65C662F1BB6E379005A0D4E /* ref.html */,
+				D65C66301BB6E379005A0D4E /* submenu.html */,
+				D65C66311BB6E379005A0D4E /* wordsdef.html */,
+			);
+			name = "99-99_Docments";
+			sourceTree = "<group>";
+		};
+		D65C66361BB75A45005A0D4E /* 06-01_Class1b */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "06-01_Class1b";
+			sourceTree = "<group>";
+		};
+		D65C663A1BB75E9E005A0D4E /* 02-04_Func2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "02-04_Func2";
+			sourceTree = "<group>";
+		};
+		D65C663D1BB76E28005A0D4E /* 02-05_Variable4 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "02-05_Variable4";
+			sourceTree = "<group>";
+		};
+		D65C66441BB770AD005A0D4E /* 02-06_Input1 */ = {
+			isa = PBXGroup;
+			children = (
+				D65C66451BB770F3005A0D4E /* Input1.cpp */,
+			);
+			name = "02-06_Input1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D65C64D11BB6D5FD005A0D4E /* Variable1.cpp in Sources */,
+				D65C66461BB770F3005A0D4E /* Input1.cpp in Sources */,
+				D65C66431BB76FEB005A0D4E /* Func1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +337,7 @@
 				D65C64C41BB6CF5C005A0D4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
